@@ -33,7 +33,7 @@ public String getEmpDetail() {
 	@Produces({MediaType.APPLICATION_JSON,MediaType.APPLICATION_XML})
 	public List<Employee> getEmpDetail() {
 		
-		System.out.println(" aaaaaa ");
+		System.out.println(" aaaaaa BBBB ");
 		
 		return emp.getAllEmployee();
 		
